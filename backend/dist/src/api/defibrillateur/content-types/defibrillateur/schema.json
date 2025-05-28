@@ -1,0 +1,47 @@
+{
+    "kind": "collectionType",
+    "collectionName": "defibrillateurs",
+    "info": {
+        "singularName": "defibrillateur",
+        "pluralName": "defibrillateurs",
+        "displayName": "defibrillateur"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "nom": {
+            "type": "string"
+        },
+        "adr_num": {
+            "type": "string"
+        },
+        "adr_voie": {
+            "type": "string"
+        },
+        "com_cp": {
+            "type": "string"
+        },
+        "com_nom": {
+            "type": "string"
+        },
+        "acc": {
+            "type": "string"
+        },
+        "disp_j": {
+            "type": "string"
+        },
+        "disp_h": {
+            "type": "string"
+        },
+        "acc_complt": {
+            "type": "string"
+        },
+        "lat": {
+            "type": "decimal"
+        },
+        "lon": {
+            "type": "decimal"
+        }
+    }
+}
