@@ -1,2 +1,19 @@
 backend/geodae.csv
 backend/.tmp/data.db
+/backend/types/generated/
+/backend/dist/
+/backend/.strapi-updater.json
+/backend/favicon.png
+
+
+
+# macOS
+.DS_Store
+
+# VSCode ou WebStorm (si utilisé)
+.vscode/
+.idea/
+
+# Frontend
+/frontend/node_modules
+/frontend/dist
